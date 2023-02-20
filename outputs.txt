@@ -1,0 +1,206 @@
+Part 1:
+Select one of following product categories:
+Category	Description				Average Profit Per Unit
+1			Apple iPhone			$120.45
+2			Android Phone			$99.50 
+3			Apple Tablet			$75.69 
+4			Android Tablet			$65.73
+5			Windows Tablet			$51.49
+
+Enter product number 1-5, or enter 0 to stop: 5
+Enter quantity sold: 3
+
+Enter product number 1-5, or enter 0 to stop: 1
+Enter quantity sold: 2
+
+Enter product number 1-5, or enter 0 to stop: 7
+Error!!!, Enter a number between 0 and 5
+
+Enter product number 1-5, or enter 0 to stop: 0
+395.37
+
+Process finished with exit code 0
+
+Part 2:
+Test 1:
+
+Welcome to Circle Phones Profit calculator
+You can calculate the profit of the company according to a specific day or by a week or divide the week into weekdays and weekend
+
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 1
+Enter a specific day [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]: Monday
+Select one of following product categories:
+Category	Description				Average Profit Per Unit
+1			Apple iPhone			$120.45
+2			Android Phone			$99.50 
+3			Apple Tablet			$75.69 
+4			Android Tablet			$65.73
+5			Windows Tablet			$51.49
+
+For Monday
+
+Enter product number 1-5, or enter 0 to stop: 1
+Enter quantity sold: 37
+
+Enter product number 1-5, or enter 0 to stop: 4
+Enter quantity sold: 52
+
+Enter product number 1-5, or enter 0 to stop: 0
+Total Profit for the Monday is: $7874.61
+More hard work needed... The last Monday wasn't the best
+
+Process finished with exit code 0
+
+Test 2:
+
+Welcome to Circle Phones Profit calculator
+You can calculate the profit of the company according to a specific day or by a week or divide the week into weekdays and weekend
+
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 2
+Select one of following product categories:
+Category	Description				Average Profit Per Unit
+1			Apple iPhone			$120.45
+2			Android Phone			$99.50 
+3			Apple Tablet			$75.69 
+4			Android Tablet			$65.73
+5			Windows Tablet			$51.49
+
+For Monday
+
+Enter product number 1-5, or enter 0 to stop: 2
+Enter quantity sold: 600
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Tuesday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Wednesday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Thursday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Friday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Saturday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Sunday
+
+Enter product number 1-5, or enter 0 to stop: 3
+Enter quantity sold: 500
+
+Enter product number 1-5, or enter 0 to stop: 0
+Total Profit for the week is: $97545.00
+You did good this week! Keep up the great work!
+
+Process finished with exit code 0
+
+Test 3:
+
+Welcome to Circle Phones Profit calculator
+You can calculate the profit of the company according to a specific day or by a week or divide the week into weekdays and weekend
+
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 3
+Select one of following product categories:
+Category	Description				Average Profit Per Unit
+1			Apple iPhone			$120.45
+2			Android Phone			$99.50 
+3			Apple Tablet			$75.69 
+4			Android Tablet			$65.73
+5			Windows Tablet			$51.49
+
+For Monday
+
+Enter product number 1-5, or enter 0 to stop: 5
+Enter quantity sold: 900
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Tuesday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Wednesday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Thursday
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Friday
+
+Enter product number 1-5, or enter 0 to stop: 0
+Total Profit for the week (business days) is: $46341.00
+You did good this week (business days)! Keep up the great work!
+
+Process finished with exit code 0
+
+
+Test 4:
+
+Welcome to Circle Phones Profit calculator
+You can calculate the profit of the company according to a specific day or by a week or divide the week into weekdays and weekend
+
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 4
+Select one of following product categories:
+Category	Description				Average Profit Per Unit
+1			Apple iPhone			$120.45
+2			Android Phone			$99.50 
+3			Apple Tablet			$75.69 
+4			Android Tablet			$65.73
+5			Windows Tablet			$51.49
+
+For Saturday
+
+Enter product number 1-5, or enter 0 to stop: 4
+Enter quantity sold: 600
+
+Enter product number 1-5, or enter 0 to stop: 0
+For Sunday
+
+Enter product number 1-5, or enter 0 to stop: 0
+Total Profit for the weekend is: $39438.00
+You did good this weekend! Keep up the great work!
+
+Process finished with exit code 0
+
+
+Test 5:
+
+Welcome to Circle Phones Profit calculator
+You can calculate the profit of the company according to a specific day or by a week or divide the week into weekdays and weekend
+
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 5
+Invalid input, please enter a valid input
+Enter:
+1 - For specific Day
+2 - For the Week
+3 - For Week Business Days
+4 - For Weekend days
+0 - Exit: 0
+
+Process finished with exit code 0
