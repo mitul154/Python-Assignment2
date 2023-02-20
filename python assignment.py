@@ -1,16 +1,19 @@
+#  defining variables
+
 loopCondition = True
 total = 0
 product_category = 0
-prices = [120.45, 99.50, 75.69, 65.73, 51.49]
+profit = [120.45, 99.50, 75.69, 65.73, 51.49]   # profits for products
 days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-no_of_days = {1:1, 2:7, 3:5, 4:2}
+no_of_days = {1:1, 2:7, 3:5, 4:2}   # dictionary representing number of days corresponding time_period values
 period = {1:"", 2:"week", 3:"week (business days)", 4:"weekend"}
-tp_loop = True
+tp_loop = True      # Condition for the time period loop
 
 print("Welcome to Circle Phones Profit calculator\n"
       "You can calculate the profit of the company according to a specific "
       "day or by a week or divide the week into weekdays and weekend\n")
 
+# while loop which repeats itself if the entered value is incorrect
 
 while tp_loop:
     time_period = input("Enter:\n"
@@ -31,6 +34,8 @@ while tp_loop:
     if time_period == 0:
         quit()
 
+# asking user for the specific day
+
 if time_period == 1:
     while True:
         day = input("Enter a specific day [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]: ")
@@ -47,9 +52,7 @@ print("Select one of following product categories:\nCategory\tDescription\t\t\t\
       "5\t\t\tWindows Tablet\t\t\t$51.49\n"
       )
 
-
-
-for i in range(no_of_days[time_period]):
+for i in range(no_of_days[time_period]):    # repeats the code block as many times as number of days given
     if time_period == 4:
         print(f"For {days[i+5].capitalize()}")
     elif time_period == 1:
@@ -57,9 +60,9 @@ for i in range(no_of_days[time_period]):
     else:
         print(f"For {days[i].capitalize()}")
 
-    while loopCondition:
+    while loopCondition:    # loop exits when user enters 0
           product_category = input("\nEnter product number 1-5, or enter 0 to stop: ")
-          if product_category.isnumeric():
+          if product_category.isnumeric():  # checks if input is an integer
               product_category = int(product_category)
           else:
               print("Invalid input, please enter a valid input")
@@ -76,16 +79,17 @@ for i in range(no_of_days[time_period]):
 
 
           quantity = input("Enter quantity sold: ")
-          if quantity.isnumeric():
+          if quantity.isnumeric():  # check if input is integer
               quantity = int(quantity)
           else:
                 print("Error!!!, Enter a number between 0 and 5")
                 continue
 
-          total += prices[product_category-1] * quantity
+          total += profit[product_category - 1] * quantity  # calculates the total based on the given values
 
 
 print(f"Total Profit for the {period[time_period]} is: ${total:.2f}")
+
 if total >= 10000:
     print(f"You did good this {period[time_period]}! Keep up the great work!")
 else:
