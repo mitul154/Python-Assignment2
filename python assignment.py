@@ -85,20 +85,11 @@ for i in range(no_of_days[time_period]):
           total += prices[product_category-1] * quantity
 
 
-"""if time_period == 1:
-    print(f"Total Profit for the {day} is: ${total:.2f}")
-else:"""
 print(f"Total Profit for the {period[time_period]} is: ${total:.2f}")
 if total >= 10000:
     print(f"You did good this {period[time_period]}! Keep up the great work!")
 else:
     print(f"More hard work needed... The last {period[time_period]} wasn't the best")
 
-"""elif time_period == 2:
-    print(f"Total Profit for the week is: ${total:.2f}")
-elif time_period == 3:
-    print(f"Total Profit for the week (business days) is: ${total:.2f}")
-elif time_period == 4:
-"""
 
 
