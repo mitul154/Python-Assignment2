@@ -1,3 +1,12 @@
+"""
+Assignment: Programming Strategies
+A profit calculator for circle phones which calculates profit based on the period(day, week, weekend, weekday)
+
+This calculator supports String and integer based inputs. And gives a string with the total profit as output
+This calculator is designed to work in all scenario's
+"""
+
+
 #  defining variables
 
 loopCondition = True
@@ -22,7 +31,7 @@ while tp_loop:
                             "3 - For Week Business Days\n"
                             "4 - For Weekend days\n"
                             "0 - Exit: ")
-    if time_period.isnumeric():
+    if time_period.isnumeric(): # checks if time_period is an integer
         time_period = int(time_period)
     else:
         print("Invalid input, please enter a valid input")
@@ -37,7 +46,7 @@ while tp_loop:
 # asking user for the specific day
 
 if time_period == 1:
-    while True:
+    while True:   # loop for entering specific day by the user
         day = input("Enter a specific day [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]: ")
         period[1] = day
         if day.casefold() not in days:
@@ -67,10 +76,8 @@ for i in range(no_of_days[time_period]):    # repeats the code block as many tim
           else:
               print("Invalid input, please enter a valid input")
               continue
-
-          if 0 <= product_category <= 5:
-                innerLoop = False
-          else:
+            # check for invalid input
+          if product_category < 0 or product_category > 5:    # if the number is out of range the loop continues
                 print("Error!!!, Enter a number between 0 and 5")
                 continue
 
